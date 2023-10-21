@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+<header class="bg-indigo-600 p-4 flex justify-between items-center">
+  <h1 class="text-white font-bold text-2xl">Website Title</h1>
+  <nav>
+    <ul class="flex space-x-8 text-white text-lg">
+      <li><a href="#" class="hover:text-gray-200 transition">Home</a></li>
+      <li><a href="#" class="hover:text-gray-200 transition">About</a></li>
+      <li><a href="#" class="hover:text-gray-200 transition">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="p-8 max-w-3xl mx-auto">
+
+  <h2 class="text-3xl font-bold mb-4">Transitions</h2>
+
+  <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 
+  transition duration-300">Hover Me</button>
+
+  <div class="h-64 mt-8 bg-gray-400 transition duration-500 ease-in-out transform hover:-translate-y-4 hover:scale-105">
+    Hover over me
+  </div>
+
+  <h2 class="text-3xl font-bold mb-4 mt-8">Animations</h2>  
+
+  <div class="h-64 bg-indigo-500 rounded shadow-lg animate-pulse">
+  </div>
+
+  <div class="h-64 bg-pink-500 rounded shadow-lg mt-8 animate-spin">
+  </div>
+  
+</main>
+
+</body>
+</html>
